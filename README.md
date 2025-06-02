@@ -1,8 +1,35 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### Video Tutorial for this project
-https://youtu.be/SQ4A7Q6_md8
-<br><br>
+# 💬 Real-Time Chat App with Django, HTMX & WebSockets
+
+A full-stack real-time chat application built using **Django**, **Django Channels**, **HTMX**, and **WebSockets**. It provides a seamless and interactive chat experience with support for **public chats**, **private messaging**, **custom group chats**, **file sharing**, and **live online presence tracking** — all without page reloads.
+
+
+## 🚀 Features
+
+- 🗣️ **Public Chat Room** – A global room where all logged-in users can chat together
+- 🔐 **Private Messaging** – One-to-one direct messages between users
+- 👥 **Custom Group Chats** – Users can create groups and invite friends
+- 🟢 **Online User Tracking** – See who is online in real-time
+- 📁 **File Sharing** – Upload and exchange files in any chat
+- 🧠 **Live Typing Indicators** – Know when someone is typing
+- ⚡ **Real-Time Messaging** – Achieved using Django Channels & WebSockets
+- 👤 **User Authentication** – Login, logout, and access control for chat features
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+- **Django** – Backend web framework for models, authentication, and views
+- **Django Channels** – WebSocket support and asynchronous consumers
+- **ASGI** – Enables asynchronous communication between client and server
+- **WebSockets** – Real-time bidirectional communication protocol
+
+### Frontend
+- **HTMX** – Enhances interactivity with server-rendered components
+- **HTML5, CSS3** – Layout and styling
+- **JavaScript** – Minimal use for file upload and enhanced UX
+
+
 
 #### Getting the files
 Download zip file<br> 
@@ -59,11 +86,3 @@ python manage.py shell
 from django.core.management.utils import get_random_secret_key
 print(get_random_secret_key())
 exit()
-```
-
-=======
->>>>>>> c5437c22bdfc6458642e8243268ec86ace3b18f1
-
-=======
-# Realtime_chat
->>>>>>> b483423b082efb8832ec88ccaa4ef34082687920
