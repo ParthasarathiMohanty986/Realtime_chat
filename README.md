@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Video Tutorial for this project
 https://youtu.be/SQ4A7Q6_md8
 <br><br>
@@ -60,6 +61,8 @@ print(get_random_secret_key())
 exit()
 ```
 
+=======
+>>>>>>> c5437c22bdfc6458642e8243268ec86ace3b18f1
 
 =======
 # Realtime_chat
