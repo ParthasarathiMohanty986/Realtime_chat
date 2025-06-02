@@ -32,9 +32,12 @@ else:
 
 
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*']
+ALLOWED_HOSTS = ["realtime-chat-eg5b.onrender.com"]
 
-CSRF_TRUSTED_ORIGINS = [ 'https://*' ]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://realtime-chat-eg5b.onrender.com",
+]
 
 
 # Application definition
