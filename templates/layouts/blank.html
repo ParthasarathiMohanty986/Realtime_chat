@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block layout %}
+
+<style>
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .animated-gradient {
+    background: linear-gradient(-45deg, #2c3e50, #34495e, #3b5998, #2c3e50);
+    background-size: 400% 400%;
+    animation: gradientShift 20s ease infinite;
+  }
+</style>
+
+<content class="block w-full min-h-screen p-4 animated-gradient transition-all duration-1000">
+
+    {% block content %} 
+    {% endblock %}
+
+</content>
+
+{% endblock %}
